@@ -9,11 +9,13 @@ function invert() {
         body.style.backgroundColor = "var(--dark-background-color)"
         button.style.borderColor = "var(--dark-border-color)"
         button.style.backgroundColor = "var(--dark-button-background-color)"
+        button.style.color = "var(--light-text-color)"
         light = false 
     } else {
         body.style.backgroundColor = "var(--light-background-color)"
         button.style.borderColor = "var(--light-border-color)"
         button.style.backgroundColor = "var(--light-button-background-color)"
+        button.style.color = "var(--dark-text-color)"
         light = true
     }
 }
